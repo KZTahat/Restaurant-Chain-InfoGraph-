@@ -69,7 +69,7 @@ function Rest() {
         {view == "Restaurants" ? (
           <div className="restaurant-list">
             {isLoading ? (
-              <PageLoader top="400px" left='50%' />
+              <PageLoader top="300px" left='50%' />
             ) : !restaurants.length ? (
               <Title text="You Have No Restaurants Yet" />
             ) : (
